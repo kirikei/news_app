@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  aid: 1
+  nid: 1
+  polarity: 1.5
+
+two:
+  aid: 1
+  nid: 1
+  polarity: 1.5

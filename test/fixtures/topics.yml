@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  eid: 1
+  nid: 1
+  tid: 1
+
+two:
+  eid: 1
+  nid: 1
+  tid: 1
