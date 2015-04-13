@@ -21,19 +21,20 @@ EveArt.create(
 
 Article.create(
 	aid:0,
-	url:'http://sample.com')
+	url:'http://sample.com'
+	tid:nil)
 
 Polarity.create(
 	aid:0,
-	pol_score:1.0)
+	score:1.0)
 
 Coverage.create(
 	aid:0,
-	cov_score:1.0)
+	score:1.0)
 
 Detailed.create(
 	aid:0,
-	det_score:1.0)
+	score:1.0)
 
 ArtEntity.create(
 	aid:0,

@@ -50,8 +50,20 @@ gem 'therubyracer' # javascript runtime。lessをコンパイルするために�
 gem 'less-rails' # Railsでlessを使えるようにする。Bootstrapがlessで書かれているため
 gem 'twitter-bootstrap-rails' # Bootstrapの本体
 
+#----http://qiita.com/anoworl/items/756f01cc3d188ebad139参照-----
+
 # introduce grape
 gem 'grape'
 
+# テスト用オブジェクト作成gem
+gem 'factory_girl_rails'
 
+# テスト用文字列を作成するgem
+gem 'faker-japanese'
+
+# json作成に使うgem
+gem 'oj'
+
+# 複雑なjsonを書くのに必要
+gem 'rabl'
 

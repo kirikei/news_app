@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141209074432) do
+ActiveRecord::Schema.define(version: 20150119084043) do
 
   create_table "art_entities", force: true do |t|
     t.integer  "aid"
@@ -40,20 +40,21 @@ ActiveRecord::Schema.define(version: 20141209074432) do
   create_table "articles", force: true do |t|
     t.integer  "aid"
     t.string   "url"
+    t.integer  "tid"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "coverages", force: true do |t|
     t.integer  "aid"
-    t.float    "cov_score"
+    t.float    "score"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "detaileds", force: true do |t|
     t.integer  "aid"
-    t.float    "det_score"
+    t.float    "score"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -81,7 +82,7 @@ ActiveRecord::Schema.define(version: 20141209074432) do
 
   create_table "polarities", force: true do |t|
     t.integer  "aid"
-    t.float    "pol_score"
+    t.float    "score"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
